@@ -1,0 +1,91 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑Light";
+}
+
+.main{
+	width: 100%;
+	height: 800px;
+	background-color: #e7e4e7;
+	position: relative;
+}
+
+.main .card{
+	width: 50%;
+	height: 350px;
+	position: absolute;
+	top:200px;
+	left: 25%;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 2px 5px 2px #A9A9A9;
+}
+
+.main .card .card_desc{
+	width: 95%;
+	height: 90px;
+	background-color: #9C05B3;
+	border-radius: 5px;
+	position: absolute;
+	top:-10px;
+	left: 18px;
+	box-shadow: 2px 3px 2px #D3D3D3;
+}
+.main .card .card_desc .desc1{
+	margin-top: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	padding-left: 15px;
+	font-weight: 200;
+}
+.main .card .card_desc .desc2{
+	margin-top: 12px;
+	color: #ffffff;
+	font-size: 13px;
+	padding-left: 15px;
+	font-weight: 100;
+}
+
+.main .card .card_form{
+	width:100%;
+	height: 250px;
+	position: absolute;
+	top:100px;
+	padding: 15px;
+	box-sizing: border-box;  
+}
+
+.main .card .card_form .edit1{
+	width: 99%;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	
+}
+
+.main .card .card_form .edit1 p{
+	
+	margin-bottom: 20px;
+	color:#A9A9A9;
+}
+.main .card .card_form .edit1 input{
+	width: 98%;
+	height:20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #A9A9A9;
+
+}
+.main .card .card_form .button{
+	width: 100px;
+	height: 40px;
+	background-color:#9C05B3;
+	border-radius: 5px;
+	color: #ffffff;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+
+

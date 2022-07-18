@@ -1,0 +1,257 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: "微软雅黑Light";
+}
+body{
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	height:800px;
+	display: flex;
+	flex-direction: row;
+}
+.container .sidebar{
+	width: 18%;
+	height: 100%;
+	background-color: #ffffff;
+	overflow: auto;
+
+
+}
+.container .main{
+	width: 82%;
+	height:100%;
+	background-color:#EEEEEE;
+	overflow: auto;
+	box-shadow: 1px 0px 8px #7D7D7D inset;
+}
+.container .sidebar .logo{
+	width: 100%;
+	height: 80px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 80px;
+	color: #696969;
+	letter-spacing: 3px;
+	font-weight: 500;
+}
+
+hr{
+	width: 96%;
+	margin:auto;
+	border:none;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color: #808080;
+}
+
+.container .sidebar .menu img{
+	width: 20px;
+	height: 20px;
+	margin-bottom:-3px;
+	padding-right: 10px; 
+}
+
+.container .sidebar .menu li{
+	width: 80%;
+	margin:auto;
+	height: 50px;
+	margin-top: 20px;
+/*	background-color: blue;*/
+	line-height: 50px;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 8px;
+}
+
+.container .sidebar .menu li.active{
+	background-color:#9932CC 
+}
+.container .sidebar .menu li.active label{
+	color: #ffffff;
+}
+.container .main .nav{
+	width: 100%;
+	height: 60px;
+	color: #808080;
+}
+.container .main .nav .nav_brand{
+	float:left;
+	line-height: 60px;
+	padding-left: 50px;
+	font-size: 18px;
+}
+.container .main .nav .nav_bar{
+    float:right;
+    padding-right: 50px;
+}
+.container .main .nav .nav_bar img{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+}
+.container .main .nav .nav_bar #drop_menu{
+	display: none;
+}
+
+.container .main .nav .nav_bar #drop_menu li{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.container .main .content{
+	width: 100%;
+	margin-top:80px;
+}
+
+.container .main .content .table_card{
+	width: 90%;
+	height: 500px;
+	margin:auto;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 20px;
+	position: relative;
+
+
+}
+.container .main .content .table_card .table_desc{
+	width:100%;
+	height: 80px;
+	background-color: #9932CC;
+	border-radius: 5px;
+	color: #ffffff;
+	position: relative;
+	top:-30px;
+	box-shadow: 2px 3px 2px #D3D3D3;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.container .main .content .table_card .table_desc .desc1{
+	font-size: 18px;
+	margin-top: 5px;
+}
+.container .main .content .table_card .table_desc .desc2{
+	font-size: 14px;
+	margin-top: 5px;
+	padding-left: 2px;
+}
+.container .main .content .table_card .table_desc button{
+	width: 100px;
+	height: 40px;
+	background-color: #48D1CC;
+	color: #ffffff;
+	font-size: 15px;
+	border-radius: 5px;
+	border:none;
+	position: absolute;
+	top:20px;
+	right: 20px;
+}
+
+
+.container .main .content .table_card .table{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: auto;
+
+}
+.container .main .content .table_card .table table{
+	width: 100%;
+	margin:auto;
+	text-align: left;
+	boder:none;
+
+
+}
+.container .main .content .table_card .table table th{
+	height: 50px;
+	font-weight: 200;
+	font-size: 18px;
+	color:#9932CC;
+	border-bottom:1px solid #E6E6E6;
+	vertical-align: center;
+}
+.container .main .content .table_card .table table td{
+	height: 50px;
+	font-weight: 100;
+	font-size: 14px;
+	color:#808080;
+	border-bottom:1px solid #E6E6E6;
+	vertical-align: center;
+}
+.container .main .content .table_card .table table td a{
+	color: #9932CC;
+}
+.container .main .content .table_card .form{
+	width: 100%;
+    height: 400px;
+	position: relative;
+
+
+}
+.container .main .content .table_card .form .edit1{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.container .main .content .table_card .form .edit2{
+	width: 49%;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+.container .main .content .table_card .form .edit3{
+	width: 32%;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.container .main .content .table_card .form  .edit{
+	width: 99%;
+	height: 20px;
+	border: none;
+	border-bottom: 1px solid #A9A9A9;
+	color: #A9A9A9;
+	outline: none;
+	font-size:14px;
+}
+
+.container .main .content .table_card .form  p{
+	margin-bottom: 10px;
+	color: #A9A9A9;
+}
+.container .main .content .table_card .form .button{
+   width: 100px;
+   height: 40px;
+   background-color: #9932CC;
+   color: #ffffff;
+   font-size: 15px;
+   position: absolute;
+   bottom: -20px;
+   right: 20px;
+
+}
+
+.note{
+	color:red; 
+}
+.clear{
+	clear: both;
+}
+
+
+
+
+
+

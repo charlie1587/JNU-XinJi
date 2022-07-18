@@ -1,0 +1,426 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Tmart-Minimalist eCommerce HTML5 Template.
+  Template URI: #
+  Description: Tmart is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: Theme365 
+  Version: 1.0
+-----------------------------------------------------------------------------------*/
+/*
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+*/
+
+.slider-overly-2::before {
+  background-color: #000;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.slider-area > img {
+  height: 100vh;
+  width: 100%;
+}
+.slider__full--screen {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.slider__fixed--height {
+  display: flex;
+  height: 680px;
+  align-items: center;
+}
+.slider__fixed--height--2 {
+  align-items: center;
+  display: flex;
+  height: 630px;
+}
+
+.slider__bg--1 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/1.png") no-repeat scroll center center / cover ;
+}
+.slider__bg--2 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/2.jpg") no-repeat scroll center center / cover ;
+}
+
+.slider__bg--3 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/3.jpg") no-repeat scroll center center / cover ;
+}
+.slider__bg--4 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/4.jpg") no-repeat scroll center center / cover ;
+}
+
+.slider--two .slider__bg--2{
+  background-attachment: fixed;
+}
+
+
+/*-----------------------------------------
+  Slider variation Content
+-------------------------------------------*/
+
+.slider__inner h1 {
+  color: #000000;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+.slide{
+  position: relative;
+}
+.owl-carousel.owl-theme {
+  display: block;
+}
+.owl-carousel .owl-item img {
+  display: block;
+}
+.slider__btn {
+    margin-top: 14px;
+    text-align: center;
+}
+.slider__btn a.htc__btn {
+    color: #000;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.slider__btn a.htc__btn::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+}
+.slider__btn a.htc__btn:hover {
+    color: #ff4136;
+}
+.slider__btn a.htc__btn:hover::before {
+    background: #ff4136 none repeat scroll 0 0;
+}
+
+/*---------------------------
+  Slider Two
+-----------------------------*/
+.slider--two .slider__inner h1 {
+  color: #303030;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.slider--two .slider__btn a.htc__btn::before {
+  display: none;
+}
+
+.slider--two .slider__btn a.htc__btn {
+  padding: 0;
+}
+.slider--two .slider__btn {
+  margin-top: 3px;
+  text-align: center;
+}
+.slider__inner--2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    margin: auto;
+    padding: 50px 60px;
+}
+
+
+/*---------------------------
+  Slider four
+-----------------------------*/
+
+
+.slider--four .slider__inner {
+    text-align: left;
+}
+.slider--four .slider__inner h1 {
+    color: #474747;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: capitalize;
+}
+.slider--four .slider__btn {
+  margin-top: 14px;
+  text-align: left;
+}
+.slider--four .slider__inner h4 {
+  font-size: 30px;
+  line-height: 49px;
+}
+.slider--four .slider__inner h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+
+/*---------------------------
+  Slider five
+-----------------------------*/
+
+.slider--five .slider__inner h1 {
+  color: #202020;
+  font-size: 100px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+.slider--five .slider__inner h4 {
+  color: #202020;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+.slider--five .slider__btn {
+  margin-top: 14px;
+  text-align: left;
+}
+
+
+/*---------------------------
+  Slider Six
+-----------------------------*/
+
+
+.slider--six .slider__inner {
+    text-align: center;
+}
+.slider--six .slider__inner h4 {
+    color: #464646;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.slider--six .slider__inner h1 {
+    color: #474747;
+    font-weight: 400;
+    line-height: 88px;
+    margin-top: 13px;
+}
+.slider--six .slider__inner h3 {
+    color: #474747;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 88px;
+}
+
+.slider--six .slider__content {
+  padding-top: 95px;
+}
+
+
+
+/*---------------------------
+  Slider 7
+-----------------------------*/
+.slider--7 .slide {
+  border-bottom: 1px solid #fff;
+  position: relative;
+}        
+
+.slider--7 .slider__fornt__images{
+  position: absolute;
+}
+.slider--7 .slider__fornt__images {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+.slider--7 .slider__inner h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.slider--7 .slider__inner h1 {
+  font-size: 60px;
+  line-height: 88px;
+  text-align: left;
+  color: #474747;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------
+  Slider Animation
+--------------------------------*/
+
+
+.slider__activation__wrap.owl-carousel .owl-nav div {
+  background: transparent none repeat scroll 0 0;
+  height: 50px;
+  left: 100px;
+  line-height: 41px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  transition: 0.5s;
+    transform: translateY(-50%);
+}
+.slider__activation__wrap.owl-carousel .owl-nav div.owl-next {
+  left: auto;
+  right: 100px;
+  transition: 0.5s;
+}
+.slider__activation__wrap:hover .owl-nav div{
+  left: 20px;
+}
+
+.slider__activation__wrap:hover .owl-nav div.owl-next{
+  right: 20px;
+}
+
+
+.slider__activation__wrap.owl-carousel .owl-nav div i {
+  color: #999;
+  font-size: 83px;
+}
+.slider__activation__wrap{
+  position: relative;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0;
+}
+.owl-theme .owl-nav {
+  margin-top: 0;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent none repeat scroll 0 0;
+}
+
+
+
+.slide .slider__inner .slider__btn,
+.slide .slider__inner h4,
+.slide .slider__inner h3,
+.slide .slider__inner h1 {
+  opacity: 0;
+  transform: translateY(40%);
+}
+.slider__fornt__images{
+  opacity: 0;
+  transform: translateX(40%);
+}
+.slider__activation__wrap .owl-item.active .slide .slider__fornt__images{
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.slider__fornt__images {
+  transition: all 1s ease-in-out 2s;
+}
+
+
+.slider__activation__wrap .owl-item.active .slide .slider__btn,
+.slider__activation__wrap .owl-item.active .slide .slider__inner h1,
+.slider__activation__wrap .owl-item.active .slide .slider__inner h3,
+.slider__activation__wrap .owl-item.active .slide .slider__inner h4 {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+
+.slide .slider__inner h1 {
+  transition: all 1s ease-in-out 1.2s;
+}
+
+.slide .slider__inner h3 {
+  transition: all 1s ease-in-out 1.6s;
+}
+.slide .slider__inner h4 {
+  transition: all 1s ease-in-out 2s;
+}
+
+.slide .slider__inner .slider__btn {
+  transition: all 1s ease-in-out 2s;
+}
+
+.slider-text-right .slider__inner h1 {
+  text-align: right;
+}
+
+.slider-text-right .slider__btn {
+  text-align: right;
+}
+
+.slider-text-right.slider-height-inherit .slider__inner {
+  padding: 184px 40px 184px 0;
+}
+
+.slider-text-left .slider__inner h1 {
+  text-align: left;
+}
+
+.slider-text-left .slider__btn {
+  text-align: left;
+}
+
+.slider-text-left.slider-height-inherit .slider__inner {
+  padding: 184px 0px 184px 40px;
+}
+
+.slider__full--screen.slider-height-inherit {
+    align-items: center;
+    display: flex;
+    height: inherit;
+}
+.slider-height-inherit .slider__inner {
+    padding: 184px 0;
+}
+.slider__activation__wrap.owl-carousel .owl-nav div.owl-next,
+.slider__activation__wrap.owl-carousel .owl-nav div {
+    opacity: 0;
+}
+.slider__activation__wrap:hover .owl-nav div.owl-next,
+.slider__activation__wrap:hover .owl-nav div {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

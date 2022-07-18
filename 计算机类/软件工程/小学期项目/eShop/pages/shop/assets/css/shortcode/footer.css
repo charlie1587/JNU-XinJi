@@ -1,0 +1,325 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Tmart-Minimalist eCommerce HTML5 Template.
+  Template URI: #
+  Description: Tmart is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: Theme365 
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+*/
+/*-----------------------------
+	Footer Default
+------------------------------*/
+
+
+.footer__container {
+    padding-bottom: 65px;
+    padding-top: 76px;
+}
+.htc__copyright__area {
+    border-top: 1px solid #d9d9d9;
+}
+.copyright__inner {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+.footer__menu {
+    display: flex;
+}
+.footer__details p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 26px;
+}
+.ft__logo {
+    margin-bottom: 24px;
+}
+.ft__title {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.htc__news__inner {
+    position: relative;
+}
+.subscribe__btn {
+    position: absolute;
+    right: 9px;
+    top: 0;
+}
+.news__input input {
+    border: 1px solid #d9d9d9;
+    color: #666666;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 55px 0 15px;
+}
+.subscribe__btn input {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    height: 40px;
+}
+.footer__inner p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+}
+.social__icon {
+    display: flex;
+}
+.social__icon li {
+    padding: 0 10px;
+}
+.social__icon li:first-child {
+    padding-left: 0;
+}
+.social__icon li a i {
+    border: 1px solid #c2c2c2;
+    border-radius: 100%;
+    color: #c1c1c1;
+    font-size: 14px;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 28px;
+}
+.social__icon li a:hover i {
+    background: #ff4136 none repeat scroll 0 0;
+    border: 1px solid #ff4136;
+    color: #fff;
+}
+.copyright p {
+    color: #666666;
+    font-size: 14px;
+}
+.footer__menu li a {
+    color: #666666;
+    font-size: 13px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.footer__menu li {
+    padding: 0 14px;
+}
+.footer__menu li:last-child {
+    padding-right: 0;
+}
+.fixed__footer .htc__foooter__area {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -99999;
+}
+.ft__widget.contact__us {
+  left: 58px;
+  position: relative;
+}
+.ft__title--2 {
+  color: #444444;
+  font-size: 20px;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+.ft__title--2::before {
+    background: #666666 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 80px;
+}
+.footer__inner p a {
+  color: #666666;
+}
+.footer--7 .ft__logo {
+  margin-bottom: 33px;
+}
+.footer--7 .htc__copyright__area {
+  border-top: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+/*---------------------
+  Newsletter
+-----------------------*/
+
+.input__box input {
+  border-left: 1px solid #d9d9d9;
+  color: #666666;
+  height: 40px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-top: 0;
+  width: 100%;
+}
+.subscribe__btn input.bst__btn {
+  background-image: url("../../images/icons/send.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 29% auto;
+  position: relative;
+  text-indent: -999px;
+  z-index: 5;
+}
+.subscribe__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 52px;
+  z-index: 1;
+  transition: 0.5s;
+}
+.subscribe__btn:hover{
+  background: #ff4136;
+}
+
+
+.input__box {
+  position: relative;
+}
+
+
+
+
+
+/*-----------------------------
+  Footer Four
+----------------------------------*/
+
+.fixed__footer .htc__foooter__area.footer--4 {
+  position: inherit;
+}
+
+.footer--4 .ft__widget.follow-us {
+  left: 77px;
+  position: relative;
+}
+.footer--4 .ft__widget.contact__us {
+  left: 138px;
+}
+
+
+
+/*--------------------------
+  Footer Six
+---------------------------*/
+
+.footer--6 .footer__menu {
+  justify-content: center;
+}
+
+.footer--6 .copyright__inner {
+  height: auto;
+  justify-content: center;
+}
+
+.footer--6 .ft__widget__content {
+    text-align: center;
+}
+.footer--6 .copyright {
+    border-top: 1px solid #d9d9d9;
+    margin-top: 24px;
+    padding-top: 26px;
+}
+.footer--6 .ft__widget.follow-us {
+  margin-left: -15px;
+}
+.footer__menu li a:hover {
+  color: #ff4136;
+}
+.footer--6 .ft__widget.contact__us {
+  left: 204px;
+}
+.footer--6 .footer__container {
+  padding-bottom: 0;
+  padding-top: 115px;
+}
+
+
+
+
+
+
+
+.footer-address ul li {
+  display: block;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.footer-address ul li .address-text p , .footer-address ul li .address-text a {
+  color: #666666;
+  margin-bottom: 18px;
+    margin: 0;
+}
+
+.footer-address ul li .address-icon i{
+  color: #666666;
+  font-size: 20px;
+  
+}
+.address-icon {
+  display: inline-block;
+  float: left;
+    width: 37px;
+}
+.newsletter__form > p {
+  margin-bottom: 12px;
+}
+.footer-categories li {
+  margin-bottom: 6px;
+}
+.footer-categories li:last-child {
+  margin-bottom: 0px;
+}
+.footer-categories li a {
+  color: #666;
+}
+
+.footer-categories li a:hover , .footer-address ul li .address-text a:hover {
+  color: #ff4136;
+}
+.gray-bg{
+  background-color: #f6f6f6;
+}
+.copyright a {
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
